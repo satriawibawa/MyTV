@@ -247,12 +247,13 @@ https://ayo.maling.pl/Vision/index.mpd?id=4
 #https://d2tjypxxy769fn.cloudfront.net/out/v1/7b0404cd6a8a4a908123f10774854e46/index.mpd
 
 #EXTINF:-1 tvg-name="Sindonews" tvg-logo="https://i.imgur.com/UPapG4S.jpeg" tvg-id="sindonews.id" group-title="Indonesia",SindoNews (VISION+)
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://tvku.family/Vis1/index.drm?id=5
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36
 #EXTVLCOPT:http-referrer=https://visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-https://tvku.family/Vis1/index.mpd?id=5
+#KODIPROP:inputstream.adaptive.license_key=https://ayo.maling.pl/Vision/drm.license?id=5
+https://ayo.maling.pl/Vision/index.mpd?id=5
 
 __________________________________________TransVision_________________________________________
 
@@ -261,10 +262,13 @@ __________________________________________TransVision___________________________
 http://202.150.161.212:5000/live/channel31/playlist.m3u8
 
 #EXTINF:-1 tvg-name="CNBC Indonesia" tvg-logo="https://i.imgur.com/9MiE5QV.jpeg" tvg-id="CNBCIndonesia.id" group-title="Indonesia",CNBC Indonesia (TransVision)
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=http://cubmu.adptv.workers.dev/
+#KODIPROP:inputstream.adaptive.license_key=https://cubmu.widevine.workers.dev/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c68565fa79ce01665868040a343f/manifest.mpd
 
@@ -975,6 +979,7 @@ https://tv.ngebutz.my.id/live/2359819BA55280038B6D0B1419EAFD37/7.ts
 
 #EXTINF:-1 tvg-name="MNCTV Digital (server 4)" tvg-logo="https://i.imgur.com/bzNunmj.jpeg" tvg-id=" Digital.id" group-title=" (Kadang Mati) TV Digital Sports",MNCTV Digital (server 4)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://103.170.100.42:6799/stream/channelid/1572959402?profile=pass
 http://103.172.71.153:9981/stream/channelid/1781718036?profile=pass
 
 #EXTINF:-1 tvg-name="MNCTV Digital (server 5)" tvg-logo="https://i.imgur.com/bzNunmj.jpeg" tvg-id=" Digital.id" group-title=" (Kadang Mati) TV Digital Sports",MNCTV Digital (server 5)
@@ -1000,7 +1005,7 @@ http://xtv.ooo:8080/12296515/19216918/351023
 
 #EXTINF:-1 tvg-name="RCTI Digital (server 4)" tvg-logo="https://i.imgur.com/d78b8H8.jpeg" tvg-id=" Digital.id" group-title=" (Kadang Mati) TV Digital Sports", RCTI Digital (server 4)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-http://103.172.71.153:9981/stream/channelid/353195065?profile=pass
+http://103.170.100.42:6799/stream/channelid/353195065?profile=pass
 
 #EXTINF:-1 tvg-name="RCTI Digital (server 5)" tvg-logo="https://i.imgur.com/d78b8H8.jpeg" tvg-id=" Digital.id" group-title=" (Kadang Mati) TV Digital Sports", RCTI Digital (server 5)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1021,7 +1026,7 @@ http://mag.king-4k.cc:80/live/C1645263A1D245C/1sFTVBSVCP/1505835.ts
 
 #EXTINF:-1 tvg-name="GTV Digital (server 4)" tvg-logo="https://i.imgur.com/mCyfpwO.jpeg" tvg-id="Digital.id" group-title=" (Kadang Mati) TV Digital Sports", GTV Digital (server 4)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-http://103.172.71.153:9981/stream/channelid/87868683?profile=pass
+http://103.170.100.42:6799/stream/channelid/87868683?profile=pass
 
 #EXTINF:-1 tvg-name="GTV Digital (server 5)" tvg-logo="https://i.imgur.com/mCyfpwO.jpeg" tvg-id="Digital.id" group-title=" (Kadang Mati) TV Digital Sports", GTV Digital (server 5)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1131,12 +1136,7 @@ https://tvri.cob.web.id/hls2/index.m3u8
 
 #EXTINF:-1 tvg-name="TVRI Sport Digital (server 2)" tvg-logo="https://i.imgur.com/QMDLXBK.jpeg" tvg-id="Digital.id" group-title=" (Kadang Mati) TV Digital Sports",TVRI Sport Digital (server 2)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
-#EXTHTTP:{"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.mEa4egyO_TJd6jQSisnDlhhGrGqTg19FN9oTnsikoAs", "X-TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.cwl3cPdjq3-DSHHho8uVGwAbojwa_Vk7waJHZ6Bxtks"} 
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
-#https://gooo.blog/opix/genx.m3u8?id=tvrisport&cyev=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.mEa4egyO_TJd6jQSisnDlhhGrGqTg19FN9oTnsikoAs 
-https://bintangstreaming.my.id/1kds/kds_tes.php/.m3u8?id=tvri-sport
-#http://202.169.224.202:8800/udp/239.1.2.3:1234
+http://103.170.100.42:6799/stream/channelid/1362840449?profile=pass
 
 #EXTINF:-1 tvg-name="TVRI Sport Digital (server 3)" tvg-logo="https://i.imgur.com/QMDLXBK.jpeg" tvg-id="Digital.id" group-title=" (Kadang Mati) TV Digital Sports",TVRI Sport Digital (server 3)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -1190,11 +1190,14 @@ https://bintangstreaming.my.id/1kds/kds_tes.php/.m3u8?id=tvri
 #http://opplextv.cyou:8080/nasir6160/nasir/351047
 
 #EXTINF:-1 tvg-name="TVRI Nasional" tvg-logo="https://i.imgur.com/7sVyTpC.jpeg" tvg-id="digital.id" group-title=" (Kadang Mati) TV Digital Sports", TVRI Nasional Digital (Server 2)
-EXTVLCOPT:http-referrer=http://www.dens.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-http://iptv.kilas7.com:80/kaukia/asdfrewq/8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#http://103.58.160.157:8278/720-TVRI/playlist.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช&#3656;น Gecko) Chrome/56.0.2924.87 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
+#EXT-X-TARGETDURATION:2
+#EXT-X-MEDIA-SEQUENCE:1
+#EXTVLCOPT:network-caching=10000
+#EXTVLCOPT:http-reconnect=true
+http://103.170.100.42:6799/stream/channelid/21976998?profile=pass
 
 #EXTINF:-1 tvg-name="TVRI Nasional" tvg-logo="https://i.imgur.com/7sVyTpC.jpeg" tvg-id="digital.id" group-title=" (Kadang Mati) TV Digital Sports", TVRI Nasional Digital (Server 3)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -2811,27 +2814,18 @@ http://38.75.136.137:98/gslb/dsdqpub/cctv5hd.m3u8?auth=testpub
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/iaULGkz.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Fussball.TV 1 Deutsch/Germany)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/s2/1745092.m3u8
 http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1949445
-
-#EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/iaULGkz.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Fussball.TV 1 Deutsch/Germany) New
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-http://line.mytvzone.xyz:80/live/jCp4YyMfXc/nowo2O4ogJ/1836664.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/e23Vbfi.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Fussball.TV 2 Deutsch/Germany)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/s2/1745093.m3u8
 http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1950358
-
-#EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/e23Vbfi.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Fussball.TV 2 Deutsch/Germany) New
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-http://line.mytvzone.xyz:80/live/jCp4YyMfXc/nowo2O4ogJ/1836665.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/Iu6P9lZ.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Fussball.TV 3 Deutsch/Germany)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/s2/1745094.m3u8
 http://wx78.vpn-cloud.icu:8080/p3v23bcwj2/j9iyghyczo/1951087
-
-#EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/Iu6P9lZ.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Fussball.TV 3 Deutsch/Germany) New
-#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-http://line.mytvzone.xyz:80/live/jCp4YyMfXc/nowo2O4ogJ/1836666.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/9oqHNzY.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Tipik 1)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -2897,6 +2891,7 @@ https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/inDnVLy.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (T Sports)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://fastshare1.com:80/live/25711345/late8airline/52500.ts
 https://amitomar.bdixbd.net/hoichoi.pro1/tracks-v1/index.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/gPteww8.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (Unite8 Sports 2 India)
@@ -2999,17 +2994,12 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/epg9sw6owc/out/v1/e50aecefcb294fae85d6b343e0a6f1cc/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/a4Xa1RX.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (TVRI sport Max Stream TV) On Saat Live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0
-#EXTVLCOPT:http-referrer=https://maxstream.tv/
-#KODIPROP:inputstreamclass=inputstream.adaptive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/all_clearkey/clearkey.json
 https://tencent-css.byteplaycdn.com/a901ad6ac90463fef8349d6cfb85accb/6A47A12F/Content/DASH_ENC2/Live/channel(tselwc2)/master.mpd
-
 https://tencent-css.byteplaycdn.com/bc45d110f4e170d2614174ed09e43948/6A45DAAC/Content/DASH_ENC2/Live/channel(tselwc2)/master.mpd
-https://bintangstreaming.my.id/1kds/kds_tes.php/.m3u8?id=tvri-sport
-#http://opplextv.cyou:8080/nasir6160/nasir/351052
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/QMDLXBK.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (TVRI sport digital 1)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -3022,39 +3012,26 @@ http://103.148.44.38:8000/play/a05u/index.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/QMDLXBK.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (TVRI sport digital 2)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
-#EXTHTTP:{"Authorization":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.mEa4egyO_TJd6jQSisnDlhhGrGqTg19FN9oTnsikoAs", "X-TOKEN":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.cwl3cPdjq3-DSHHho8uVGwAbojwa_Vk7waJHZ6Bxtks"} 
-#EXTVLCOPT:http-user-agent=Oxygen TV/5.9 (Linux;Android 10) ExoPlayerLib/2.12.2 
-#https://gooo.blog/opix/genx.m3u8?id=tvrisport&cyev=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3NDk4MjUyODgsImV4cCI6MTc0OTgzNjA4OCwiZGF0YSI6eyJ1c2VyIjoiYmFkc2kiLCJjbGllbnRfaXAiOiIxODIuMi40Ny4yNDQifX0.mEa4egyO_TJd6jQSisnDlhhGrGqTg19FN9oTnsikoAs 
-#http://202.169.224.202:8800/udp/239.1.2.3:1234
-#http://103.58.160.157:8278/720-TVRISPORT/playlist.m3u8
-#https://ott-balancer.tvri.go.id/live/eds/SportHD/hls/SportHD.m3u8
-#http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRISPORT)/index.m3u8
-http://iptv.kilas7.com:80/kaukia/asdfrewq/272
+http://103.170.100.42:6799/stream/channelid/1362840449?profile=pass
 
 #EXTINF:-1 tvg-name="TVRI Nasional" tvg-logo="https://i.imgur.com/Wt8tya5.jpeg" tvg-id="digital.id" group-title="Live Event Tim Nasional", FIFA World Cup (TVRI Nasional Max Stream TV) On Saat Live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=efe538648aad30c9893edf1a69eb8c8e:fe9b77088a67777af435c3fa5f1bbdd0
-https://tencent-css.byteplaycdn.com/76e91b77102f907fc72b3fffc178461b/6A488CD1/Content/DASH_ENC2/Live/channel(tselwc1)/master.mpd
-
-https://bintangstreaming.my.id/1kds/kds_tes.php/.m3u8?id=tvri
-http://opplextv.cyou:8080/nasir6160/nasir/351047
+#KODIPROP:inputstream.adaptive.license_key=https://bintangstreaming.my.id/all_clearkey/clearkey.json
+https://tencent-css.byteplaycdn.com/a901ad6ac90463fef8349d6cfb85accb/6A47A12F/Content/DASH_ENC2/Live/channel(tselwc2)/master.mpd
 
 #EXTINF:-1 tvg-name="TVRI Nasional" tvg-logo="https://i.imgur.com/7sVyTpC.jpeg" tvg-id="digital.id" group-title="Live Event Tim Nasional", FIFA World Cup (TVRI Nasional Digital 1)
 https://pildun.cob.web.id/hls2/index.m3u8
 
-EXTINF:-1 tvg-name="TVRI Nasional" tvg-logo="https://i.imgur.com/7sVyTpC.jpeg" tvg-id="itzreisa.id" group-title="Live Event Tim Nasional", FIFA World Cup (TVRI Nasional Digital 2)
+#EXTINF:-1 tvg-name="TVRI Nasional" tvg-logo="https://i.imgur.com/7sVyTpC.jpeg" tvg-id="itzreisa.id" group-title="Live Event Tim Nasional", FIFA World Cup (TVRI Nasional Digital 2)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
-#http://ott.tvri.co.id/Content/HLS/Live/Channel(TVRINASIONAL)/index.m3u8
-http://103.148.44.38:8000/play/a03t/index.m3u8
+http://103.170.100.42:6799/stream/channelid/21976998?profile=pass
+#http://103.148.44.38:8000/play/a03t/index.m3u8
 
 #EXTINF:-1 tvg-name="TVRI Nasional" tvg-logo="https://i.imgur.com/7sVyTpC.jpeg" tvg-id="itzreisa.id" group-title="Live Event Tim Nasional", FIFA World Cup (TVRI Nasional Digital 3)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
-http://baka.semar.my.id:8000/play/a03t/index.m3u8
+#http://baka.semar.my.id:8000/play/a03t/index.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/Xq9m8Nd.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (RTVS Sport)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1elamatLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -3067,14 +3044,17 @@ https://dash3.antik.sk/stream/nvidia_rtvs_sport/playlist_cbcs.mpd
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/sbhr3Nf.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (TVP 1)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/s2/1745105.m3u8
 http://line.mytvzone.xyz:80/live/jCp4YyMfXc/nowo2O4ogJ/1834808.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/IchDG8u.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (TVP 2)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/s2/1745106.m3u8
 http://line.mytvzone.xyz:80/live/jCp4YyMfXc/nowo2O4ogJ/1834809.m3u8
 
 #EXTINF:-1 tvg-name="FIFA World Cup" tvg-logo="https://i.imgur.com/HcBLwku.jpeg" tvg-id=" fifaworldcup.com" group-title="Live Event Tim Nasional",FIFA World Cup (TVP Sport)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/s2/1745104.m3u8
 http://line.mytvzone.xyz:80/live/jCp4YyMfXc/nowo2O4ogJ/1834810.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"95620bdd974041409d4674ab629e22d4":"c6c226ca1689f528a6f91e86da618f64","181c091002d04c5481c3faab18752843":"b081b6169351e0f4bfc40212dfeeed10","1163925b6b37434198130f773bc62841":"e2bdd2b87e1ddb502eb7898daece857f"}
@@ -3882,15 +3862,12 @@ http://line.crystalott.net:80/MVQIT3BOBS/LQPDWSNYNZ/1179175
 
 __________________________________________AVC Men's Volleyball Cup_________________________________________
 
-(Template)
 
 #EXTINF:-1 tvg-name="Volleyball" tvg-logo="" tvg-id="itzreisa.id" group-title="Volleyball", AVC Men's Volleyball Cup 
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; TV BOX Build/NHG47L) AppleWebKit/537.36 (KHTML เช&#3656;น Gecko) Chrome/56.0.2924.87 Safari/537.36
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
-
-(Play)
 
 #EXTINF:-1 tvg-name="Volleyball" tvg-logo="https://i.imgur.com/XBTp4uX.jpeg" tvg-id="itzreisa.id" group-title="Volleyball", AVC Men's Volleyball Cup (Moji Digital 1)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
@@ -3906,9 +3883,6 @@ https://tv.ngebutz.my.id:443/play/55c8cVrvhcFPEgTjgh2C85t_z0_MBwZtd69IGhbSfdg/ts
 #EXTINF:-1 tvg-name="Volleyball" tvg-logo="https://i.imgur.com/XBTp4uX.jpeg" tvg-id="itzreisa.id" group-title="Volleyball", AVC Men's Volleyball Cup (Moji Digital 3)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 http://opplextv.cyou:8080/nasir6160/nasir/350997
-
-
-
 
 
 #EXTM3U
