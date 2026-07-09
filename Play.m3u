@@ -8,7 +8,7 @@ http://107.150.60.122/live/cctv5hd.m3u8
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoicVdNOWtCN29vL1QxaXNNVXRjWDArdyIsImtpZCI6IkxET0tFWDFEVE9TNzQxYVNNYStROFEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ== 
+#KODIPROP:inputstream.adaptive.license_key=2c338a117d434ce4bbe3569231af90f1:a9633d901ee8a3f4f58ac314b5c5f4fb
 https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd
 
 #EXTINF:-1 tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjIV5SKCpFyJPoqsF3fJSchtJbxyJ6Pgl4qkNpaL_wA&s=10" group-title="FIFA World Cup 2026", 11 Jul 02:00 WIB - Spain vs Belgium
@@ -17,7 +17,7 @@ https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.m
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoicVdNOWtCN29vL1QxaXNNVXRjWDArdyIsImtpZCI6IkxET0tFWDFEVE9TNzQxYVNNYStROFEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ== 
+#KODIPROP:inputstream.adaptive.license_key=2c338a117d434ce4bbe3569231af90f1:a9633d901ee8a3f4f58ac314b5c5f4fb
 https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd
 
 #EXTINF:-1 tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjIV5SKCpFyJPoqsF3fJSchtJbxyJ6Pgl4qkNpaL_wA&s=10" group-title="FIFA World Cup 2026", 12 Jul 04:00 WIB - Norway vs England
@@ -26,7 +26,7 @@ https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.m
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoicVdNOWtCN29vL1QxaXNNVXRjWDArdyIsImtpZCI6IkxET0tFWDFEVE9TNzQxYVNNYStROFEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ== 
+#KODIPROP:inputstream.adaptive.license_key=2c338a117d434ce4bbe3569231af90f1:a9633d901ee8a3f4f58ac314b5c5f4fb
 https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd
 
 #EXTINF:-1 tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjIV5SKCpFyJPoqsF3fJSchtJbxyJ6Pgl4qkNpaL_wA&s=10" group-title="FIFA World Cup 2026", 12 Jul 08:00 WIB - Argentina vs Switzerlan
@@ -35,7 +35,7 @@ https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.m
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoicVdNOWtCN29vL1QxaXNNVXRjWDArdyIsImtpZCI6IkxET0tFWDFEVE9TNzQxYVNNYStROFEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ== 
+#KODIPROP:inputstream.adaptive.license_key=2c338a117d434ce4bbe3569231af90f1:a9633d901ee8a3f4f58ac314b5c5f4fb
 https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd
 
 ///////////////////////////////////// Indonesia //////////////////////////////////////////////////
