@@ -2581,6 +2581,6 @@ https://tv.ngebutz.my.id:443/play/55c8cVrvhcFPEgTjgh2C85t_z0_MBwZtd69IGhbSfdg/ts
 #EXTINF:-1 tvg-id="itzreisa.id" tvg-logo="https://i.imgur.com/XBTp4uX.jpeg" group-title="Volleyball" active="true" tvg-name="Volleyball", AVC Men's Volleyball Cup (Moji Digital 3)
 #EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 http://opplextv.cyou:8080/nasir6160/nasir/350997
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="FIFA World Cup 2026" active="true", TVRI
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQID-lg2H4PeSDC44affkJIGy6YBioiHxHPJYeP6JgXtig4kzBd6ffa4Y8&s=10" group-title="FIFA World Cup 2026" active="true", FIFA WORLD CUP 2026
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
-https://tvri.cob.web.id/hls2/index.m3u8
+http://157.15.187.3:25092/hls/63/63.m3u8
