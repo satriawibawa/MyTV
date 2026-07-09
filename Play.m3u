@@ -2,6 +2,15 @@
 #EXTINF:-1 group-title="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjIV5SKCpFyJPoqsF3fJSchtJbxyJ6Pgl4qkNpaL_wA&s=10", FIFA World Cup 2026
 http://107.150.60.122/live/cctv5hd.m3u8
 
+#EXTINF:-1 tvg-name="FIFA World Cup 2026" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQjIV5SKCpFyJPoqsF3fJSchtJbxyJ6Pgl4qkNpaL_wA&s=10" group-title="FIFA World Cup 2026", 10 Jul 03:00 WIB - France vs Morocco
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eyJrZXlzIjpbeyJrdHkiOiJvY3QiLCJrIjoicVdNOWtCN29vL1QxaXNNVXRjWDArdyIsImtpZCI6IkxET0tFWDFEVE9TNzQxYVNNYStROFEifV0sInR5cGUiOiJ0ZW1wb3JhcnkifQ== 
+https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd
+
 ///////////////////////////////////// Indonesia //////////////////////////////////////////////////
 
 #EXTINF:-1 group-logo="https://i.imgur.com/R2SHo5Q.png" group-title="Indonesia"
